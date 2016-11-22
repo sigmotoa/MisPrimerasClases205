@@ -31,10 +31,10 @@ public class MisPrimerasClases {
                 + ""+p1.apellido+"\n"+p1.id);
       //  System.out.println(p1.fechanacimiento.length);
         
-        int arre[]={23,7,1969};    
+        int arre[]={23,7,1969};//Arreglo con la fecha    
         
         p1.fechanacimiento=arre;
-        //p1.fechanacimiento[4]=200;
+       
 //        p1.fechanacimiento[0]=23;
 //        p1.fechanacimiento[1]=7;
 //        p1.fechanacimiento[2]=1969;
@@ -45,9 +45,12 @@ public class MisPrimerasClases {
         
             // p1.calcularEdad();
         System.out.println("La edad de: "+p1.nombre+""
-                + " es: "+p1.calcularEdad(189));
+                + " es: "+p1.calcularEdad(189));//el 189 no 
+        //se usa para nada
         
-        System.out.println(p1.edad);
+        System.out.println(p1.edad);//esta me da un 0
+        p1.calcularEdad();//calcular edad y guardar en edad
+        System.out.println("La edad calculada es: "+p1.edad);//mostrar edad
                 
     Persona gaes1[]=new Persona[3];
     
